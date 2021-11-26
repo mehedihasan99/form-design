@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="heading">
+            <h1>Form Design</h1>
+        </div>
+        <section class="form-section">
+            <form action="">
+                <div class="inline-form-group">
+                    <div class="form-group">
+                        <label for="fName">First Name</label>
+                        <input type="text" id="fName">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lName">Last Name</label>
+                        <input type="text" id="lName">
+                    </div>
+                </div>
+
+                <div class="inline-form-group">
+                    <div class="form-group">
+                        <label for="mail">Email</label>
+                        <input type="email" id="mail" placeholder="example@user.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone No</label>
+                        <input type="tel" id="phone" placeholder="+880" required>
+                    </div>
+                </div>
+
+                <div class="inline-form-group">
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <select name="" id="country">
+                            <option value="bangladesh">Bangladesh</option>
+                            <option value="india">India</option>
+                            <option value="pakistan">Pakistan</option>
+                            <option value="nepal">Nepal</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <select name="" id="city">
+                            <option value="dhaka">Dhaka</option>
+                            <option value="delhi">Delhi</option>
+                            <option value="islamabad">Islamabad</option>
+                            <option value="kathmandu">Kathmandu</option>
+                        </select>
+                        
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Gender</label>
+                    <div class="radio-inline-group">
+                        <div class="radio-inline">
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="radio-inline">
+                            <input type="radio" name="gender" id="female">
+                            <label for="Female">Female</label>
+                        </div>
+                        <div class="radio-inline">
+                            <input type="radio" name="gender" id="others">
+                            <label for="others">Others</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group bio">
+                    <label for="bio">Short Bio</label>
+                    <textarea name="" id="bio"></textarea>
+                </div>
+                <div class="inline-form-group">
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="password" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" id="password2" placeholder="password" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="radio-inline">
+                        <input type="checkbox" name="" id="">
+                    <label for="">I accepts terms and conditions</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="reset" class="btn reset-btn">Reset</button>
+                    <button type="submit" class="btn submit-btn">Submit</button>
+                </div>
+            </form>
+
+        </section>
+    </div>
+</body>
+</html>
